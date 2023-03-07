@@ -1,0 +1,1220 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Turno Online de Tarot - Flor Torfe</title>
+
+
+    <link rel="stylesheet" <link rel="stylesheet" href="./styles/index_2.css" />
+
+
+
+    <link rel="stylesheet" href="./styles/index.css" />
+
+ 
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+    <div id="mobile-menu-sidenav" class="mobile-menu-sidenav uk-offcanvas"
+        uk-offcanvas="overlay: true; flip: false; mode: slide">
+        <div
+            class="mobile-menu-sidenav__offcanvas-bar uk-offcanvas-bar uk-offcanvas-bar--desktop-small uk-offcanvas-bar--mobile-small text--primary">
+            <button class="mobile-menu-sidenav__offcanvas-close uk-offcanvas-close text--primary uk-icon uk-close"
+                type="button" uk-close="">
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                    data-svg="close-icon">
+                    <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                    <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                </svg>
+            </button>
+            <div class="mobile-menu-sidenav__menu">
+                <ul class="mobile-menu-sidenav__list uk-nav-default uk-nav-parent-icon uk-nav" uk-nav="">
+                    <li class="mobile-menu-sidenav__list-item">
+                        <a href="http://127.0.0.1:5500/index.html" class="mobile-menu-sidenav__item-link">Inicio</a>
+                    </li>
+                    <li class="mobile-menu-sidenav__list-item uk-parent">
+                        <a href="/productos" class="mobile-menu-sidenav__item-link">Productos</a>
+
+                    <li class="mobile-menu-sidenav__list-item">
+                        <a href=" " class="mobile-menu-sidenav__item-link">
+                            Turnos Online
+                        </a>
+
+
+
+                </ul>
+
+
+
+ 
+                <li class="mobile-menu-sidenav__list-item">
+                    <a href="#contact-modal" class="mobile-menu-sidenav__item-link" uk-toggle="">Contacto</a>
+                </li>
+                <li class="mobile-menu-sidenav__list-item mobile-menu-sidenav__list-item--divider"></li>
+                <li class="mobile-menu-sidenav__list-item">
+                    <a href="#register-modal" class="mobile-menu-sidenav__item-link" uk-toggle="">Crear cuenta</a>
+                </li>
+                <li class="mobile-menu-sidenav__list-item">
+                    <a href="#login-modal" class="mobile-menu-sidenav__item-link" uk-toggle="">Iniciar sesión</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-announcement background--primary">
+        <p class="header-announcement__text contrast_text--primary">
+            <a href=" " class="header-announcement__link contrast_text--primary">
+                ¡Bienvenidxs al sitio de Flor Torfe!
+            </a>
+        </p>
+    </div>
+
+    <div class="header uk-container">
+        <div class="header-search header__left uk-flex uk-flex-center uk-flex-middle">
+            <form method="GET" action="/search" class="header-search__form uk-flex-1">
+                <div class="uk-grid-collapse uk-flex-center uk-grid" uk-grid="">
+ 
+                    <div class="uk-width-auto@s uk-width-auto">
+                        <button type="submit" id="search-btn"
+                            class="button uk-button-input--no-radius button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"
+                            data-label='<i class="fas fa-search"></i>' data-spinner-ratio="0.75">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="header-logo header__center uk-flex uk-flex-center uk-flex-middle">
+            <a href="http://127.0.0.1:5500/index.html#" class="header-logo__link">
+                <img src="./src/img/torfe.jpg"
+                    class="header-logo__image" alt="Logo" />
+            </a>
+        </div>
+
+        <div class="header-top__user header__right uk-flex uk-flex-center uk-flex-middle">
+            <ul class="header-top__user-list uk-flex uk-flex-row">
+                <li class="user-list__item text--primary">
+                    <a href="#register-modal" class="user-list__link" uk-toggle="">Crear cuenta</a>
+                </li>
+                <li class="user-list__item text--primary">
+                    <a href="#login-modal" class="user-list__link" uk-toggle="">Iniciar sesión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-menu">
+        <div class="uk-container">
+            <nav class="header-menu__desktop uk-flex uk-flex-middle uk-flex-center uk-visible@m">
+                <ul class="header-menu__desktop-list uk-flex uk-flex-middle uk-flex-center uk-flex-wrap">
+                    <li class="desktop-list__item text--primary">
+                        <a href="http://127.0.0.1:5500/index.html" class="desktop-list__link">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="desktop-list__item text--primary">
+                        <a href="/productos" class="desktop-list__link">Productos
+                            <i class="desktop-list__down-icon text--primary fas fa-chevron-down"
+                                aria-hidden="true"></i></a>
+                        <ul class="nav first">
+ 
+                    </li>
+
+                 
+  
+
+                    
+
+      
+
+      
+ 
+                    </li>
+                    <li class="desktop-list__subitem text--primary">
+                        <a href="./pages/" class="desktop-list__link">
+                            Turnos Online
+                        </a>
+                    </li>
+
+                    
+                   
+                </ul>
+             
+
+                <li class="desktop-list__item text--primary">
+                    <a href="#contact-modal" class="desktop-list__link" uk-toggle="">
+                        Contacto
+                    </a>
+                </li>
+
+                </ul>
+            </nav>
+
+            <nav class="header-menu__mobile uk-flex uk-flex-middle uk-flex-between uk-hidden@m">
+                <div class="mobile__hamburger">
+                    <a href="#" class="mobile__hamburger-btn" uk-toggle="target: #mobile-menu-sidenav"><i
+                            class="fas fa-bars text--primary" aria-hidden="true"></i></a>
+                </div>
+                <div class="mobile__actions">
+                    <ul class="mobile__actions-list uk-flex uk-flex-row uk-flex-middle">
+                        <li class="actions-list__item text--primary">
+                            <a href="#" uk-toggle="target: #cart-sidenav" class="actions-list__item text--primary">
+                                <i class="text--primary fas fa-shopping-cart" aria-hidden="true"></i>
+                                <span class="cart-qty text--primary">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section class="product-vip uk-container uk-section-block--m uk-section-block--half">
+        <div class="product-vip__container uk-grid-large uk-flex-center uk-grid uk-grid-stack" uk-grid="">
+            <div class="product-vip__left-container uk-width-2-5@s uk-width-1-1 uk-first-column">
+                <div id="product-vip__carrousel"
+                    class="product-vip__carrousel uk-position-relative uk-visible-toggle uk-dark uk-slider uk-slider-container"
+                    tabindex="-1" uk-slider="autoplay: false;">
+                    <ul class="uk-slider-items uk-child-width-1-1" style="transform: translate3d(0px, 0px, 0px)">
+                        <li tabindex="-1" class="uk-active">
+                            <img src="https://d22fxaf9t8d39k.cloudfront.net/8ff100d809e4f966ececd7cce471501cdc5a27ed7ac6e73d5f96d4b3b433d9fc24474.png"
+                                class="product-vip__carrousel-image" />
+                        </li>
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-visible uk-icon uk-slidenav-previous uk-slidenav uk-hidden uk-invisible"
+                        href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14px" height="24px"
+                            viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous">
+                            <polyline fill="none" stroke="#000" stroke-width="1.4"
+                                points="12.775,1 1.225,12 12.775,23 "></polyline>
+                        </svg></a>
+                    <a class="uk-position-center-right uk-position-small uk-visible uk-icon uk-slidenav-next uk-slidenav uk-hidden uk-invisible"
+                        href="#" uk-slidenav-next="" uk-slider-item="next"><svg width="14px" height="24px"
+                            viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next">
+                            <polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 ">
+                            </polyline>
+                        </svg></a>
+                    <ul class="product-vip__slider-dotnav uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden">
+                        <li uk-slider-item="0" class="uk-hidden uk-active">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-vip__description uk-visible@m ql-container">
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">El Tarot es un libro de sabiduría, un medio de
+                            conocimiento,
+                            una estructura de imágenes cambiantes, que nos permite por su
+                            propia simbología comenzar a observar hechos, fenómenos y cosas
+                            dentro de nosotrxs y en nuestro entorno que no podríamos
+                            haberlas supuesto sino por su intermedio.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Cuando se realiza una consulta de Tarot podría decirse que
+                            esta
+                            se divide en dos partes, la primera que ocurre es en donde quien
+                            es Tarotista realiza una tirada y en ella surge una situación
+                            que la persona que está consultando no está resolviendo o no
+                            quiere ver. Y luego de este inicio, ocurre la parte en donde la
+                            persona consultante realiza preguntas o nombra temas y sobre
+                            ellos se consulta a las Cartas.</span>
+                    </p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Mediante el Tarot se busca entender situaciones,
+                            establecer
+                            patrones y/o encontrar el problema por el cual la persona
+                            consultante no está fluyendo correctamente o se encuentra
+                            atascado o confuso.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Tenemos dos modalidades online para estos turnos:</span>
+                    </p>
+                    <ul>
+                        <li>
+                            <span style="color: rgb(61, 20, 102)">Una es por videollamada, con una duración de 1 hora
+                                donde
+                                podés hacer tus preguntas libremente durante la duración de la
+                                sesión.</span>
+                        </li>
+                        <li>
+                            <span style="color: rgb(61, 20, 102)">La otra es por mensajes de WhatsApp donde se te
+                                habilita para
+                                enviarnos 20 preguntas en total, y te respondemos por el mismo
+                                medio con las tiradas y la explicación de cada una.</span>
+                        </li>
+                    </ul>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Se recuerda que no se realizan videncias ni predicciones
+                            sino
+                            que se analizan las situaciones consultando a las Cartas para
+                            encontrar el mejor camino a seguir o las modificaciones que se
+                            tengan que realizar en el accionar.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Una vez que el turno es abonado te llegará un link para
+                            poder
+                            coordinar la fecha y el horario que te sea más conveniente para
+                            poder tener tu sesión con nosotras.</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="product-vip__right-container uk-width-2-5@m uk-width-1-1 uk-grid-margin uk-first-column">
+                <div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+                    <div class="uk-first-column">
+                        <ul class="product-vip__breadcrumb breadcrumb">
+                            <li class="breadcrumb__item">
+                                <a href="http://127.0.0.1:5500/index.html#"
+                                    class="breadcrumb__link text--primary text--primary-hover">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="http://127.0.0.1:5500/index.html#"
+                                    class="breadcrumb__link text--primary text--primary-hover">
+                                    Turnos Online
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="http://127.0.0.1:5500/index.html#"
+                                    class="breadcrumb__link text--primary text--primary-hover">
+                                    Turno Online de Tarot
+                                </a>
+                            </li>
+                        </ul>
+                        <h1 class="product-vip__title text--primary">
+                            Turno Online de Tarot
+                        </h1>
+
+                        <p class="product-vip__price uk-flex uk-flex-middle text--primary">
+                            <span class="product-vip__price-value"> $3.500 </span>
+                        </p>
+                        <p class="product-vip__promo-transfer text--primary">
+                            <i class="far fa-money-bill-alt" aria-hidden="true"></i>
+                            <span class="product-vip__promo-transfer-value">
+                                <strong>15%</strong> de descuento pagando por transferencia
+                                bancaria ó efectivo
+                            </span>
+                        </p>
+                        <p class="product-vip__show-payment-offers-text text--primary">
+                            <a href="#" class="product-vip__show-payment-offers-link text--primary">
+                                Ver formas de pago
+                                <span class="product-vip__show-payment-offers-loading"></span>
+                            </a>
+                        </p>
+                        <div class="product-vip__fields uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+                            <div class="uk-first-column">
+                                <form method="POST" action="#" id="add_to_cart-form">
+                                    <input type="hidden" name="product" value="1374383" />
+                                    <input type="hidden" name="stock" value="2773271" />
+                                    <div id="add_to_cart-msg"></div>
+                                    <div class="uk-child-width-1-1 uk-grid-small uk-grid uk-grid-stack" uk-grid="">
+               
+                                        <div class="uk-grid-margin uk-first-column">
+                                            <button type="submit" id="add_to_cart-btn"
+                                                class="button button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"
+                                                data-label="Agregar al carrito" data-spinner-ratio="0.75">
+                                                Reservar Turno
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-hidden@m uk-grid-margin uk-first-column">
+                <div class="product-vip__description ql-container">
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">El Tarot es un libro de sabiduría, un medio de
+                            conocimiento,
+                            una estructura de imágenes cambiantes, que nos permite por su
+                            propia simbología comenzar a observar hechos, fenómenos y cosas
+                            dentro de nosotrxs y en nuestro entorno que no podríamos
+                            haberlas supuesto sino por su intermedio.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Cuando se realiza una consulta de Tarot podría decirse que
+                            esta
+                            se divide en dos partes, la primera que ocurre es en donde quien
+                            es Tarotista realiza una tirada y en ella surge una situación
+                            que la persona que está consultando no está resolviendo o no
+                            quiere ver. Y luego de este inicio, ocurre la parte en donde la
+                            persona consultante realiza preguntas o nombra temas y sobre
+                            ellos se consulta a las Cartas.</span>
+                    </p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Mediante el Tarot se busca entender situaciones,
+                            establecer
+                            patrones y/o encontrar el problema por el cual la persona
+                            consultante no está fluyendo correctamente o se encuentra
+                            atascado o confuso.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Tenemos dos modalidades online para estos turnos:</span>
+                    </p>
+                    <ul>
+                        <li>
+                            <span style="color: rgb(61, 20, 102)">Una es por videollamada, con una duración de 1 hora
+                                donde
+                                podés hacer tus preguntas libremente durante la duración de la
+                                sesión.</span>
+                        </li>
+                        <li>
+                            <span style="color: rgb(61, 20, 102)">La otra es por mensajes de WhatsApp donde se te
+                                habilita para
+                                enviarnos 20 preguntas en total, y te respondemos por el mismo
+                                medio con las tiradas y la explicación de cada una.</span>
+                        </li>
+                    </ul>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Se recuerda que no se realizan videncias ni predicciones
+                            sino
+                            que se analizan las situaciones consultando a las Cartas para
+                            encontrar el mejor camino a seguir o las modificaciones que se
+                            tengan que realizar en el accionar.</span>
+                    </p>
+                    <p><br /></p>
+                    <p>
+                        <span style="color: rgb(61, 20, 102)">Una vez que el turno es abonado te llegará un link para
+                            poder
+                            coordinar la fecha y el horario que te sea más conveniente para
+                            poder tener tu sesión con nosotras.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="promotions-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="promotions-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Formas de pago
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body uk-overflow-auto" uk-overflow-auto=""
+                    style="min-height: 150px; max-height: 150px">
+                    <div id="promotions-alert"></div>
+                    <div id="promotions-modal-content">
+                        <ul class="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
+                            <li class="uk-active">
+                                <a href="#" class="border-radius" aria-expanded="true">
+                                    Mercado Pago
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-radius" aria-expanded="false">
+                                    Transferencia bancaria
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="border-radius" aria-expanded="false">
+                                    Efectivo
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="uk-switcher uk-margin" style="touch-action: pan-y pinch-zoom">
+                            <li class="promotions__method-wrapper uk-active" id="promotions__mercadopago"></li>
+                            <li class="promotions__method-wrapper" id="promotions__transfer"></li>
+                            <li class="promotions__method-wrapper" id="promotions__cash"></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="login-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="login-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Iniciar sesión
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body">
+                    <div id="login-alert"></div>
+                    <div id="login-modal-content">
+                        <div class="uk-grid-small uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
+                            <div>
+                                <div class="field field--login_email">
+                                    <label class="field__label field__label--login_email"
+                                        for="login_email">Email</label>
+
+                                    <input type="email" name="login_email" id="login_email"
+                                        class="field__input border-radius"
+                                        data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                        data-message="Ingrese un email válido" data-required="1" />
+                                    <p class="field__message field__message--login_email"></p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="field field--login_password">
+                                    <label class="field__label field__label--login_password"
+                                        for="login_password">Contraseña</label>
+
+                                    <input type="password" name="login_password" id="login_password"
+                                        class="field__input border-radius" data-regex="/^.{6,12}$/"
+                                        data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"
+                                        data-required="1" />
+                                    <p class="field__message field__message--login_password"></p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="login__message text--primary text--primary-hover uk-text-right">
+                                    Ha olvidado su contraseña?
+                                    <a href="#recover-modal" class="login__link text--primary-hover"
+                                        uk-toggle="">Recuperar</a>
+                                </p>
+                                <p class="login__message text--primary text--primary-hover uk-text-right">
+                                    Aún no tiene cuenta?
+                                    <a href="#register-modal" class="login__link text--primary-hover" uk-toggle="">Crear
+                                        cuenta</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="login-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="login-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Ingresar" data-spinner-ratio="0.75">
+                        Ingresar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="recover-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="recover-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Recuperar contraseña
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body">
+                    <div id="recover-alert"></div>
+                    <div id="recover-modal-content">
+                        <div class="field field--recover_email">
+                            <label class="field__label field__label--recover_email" for="recover_email">Email</label>
+
+                            <input type="email" name="recover_email" id="recover_email"
+                                class="field__input border-radius"
+                                data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                data-message="Ingrese un email válido" data-required="1" />
+                            <p class="field__message field__message--recover_email"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="recover-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="recover-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Recuperar" data-spinner-ratio="0.75">
+                        Recuperar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="register-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="register-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Crear cuenta
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body uk-overflow-auto" uk-overflow-auto=""
+                    style="min-height: 150px; max-height: 150px">
+                    <div id="register-alert"></div>
+                    <div id="register-modal-content">
+                        <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
+                            <div class="uk-width-1-2">
+                                <div class="field field--register_name">
+                                    <label class="field__label field__label--register_name"
+                                        for="register_name">Nombre</label>
+
+                                    <input type="text" name="register_name" id="register_name"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un nombre válido" data-required="1" />
+                                    <p class="field__message field__message--register_name"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--register_surname">
+                                    <label class="field__label field__label--register_surname"
+                                        for="register_surname">Apellido</label>
+
+                                    <input type="text" name="register_surname" id="register_surname"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un apellido válido" data-required="1" />
+                                    <p class="field__message field__message--register_surname"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--register_email">
+                                    <label class="field__label field__label--register_email"
+                                        for="register_email">Email</label>
+
+                                    <input type="email" name="register_email" id="register_email"
+                                        class="field__input border-radius"
+                                        data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                        data-message="Ingrese un email válido" data-required="1" />
+                                    <p class="field__message field__message--register_email"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--register_phone">
+                                    <label class="field__label field__label--register_phone"
+                                        for="register_phone">Teléfono (opcional)</label>
+
+                                    <input type="tel" name="register_phone" id="register_phone"
+                                        class="field__input border-radius"
+                                        data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/"
+                                        data-message="Ingrese un número de teléfono válido con código de area"
+                                        data-required="0" />
+                                    <p class="field__message field__message--register_phone"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--register_password">
+                                    <label class="field__label field__label--register_password"
+                                        for="register_password">Contraseña</label>
+
+                                    <input type="password" name="register_password" id="register_password"
+                                        class="field__input border-radius" data-regex="/^.{6,12}$/"
+                                        data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"
+                                        data-required="1" />
+                                    <p class="field__message field__message--register_password"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--register_repeat_password">
+                                    <label class="field__label field__label--register_repeat_password"
+                                        for="register_repeat_password">Repetir contraseña</label>
+
+                                    <input type="password" name="register_repeat_password" id="register_repeat_password"
+                                        class="field__input border-radius" data-regex="/^.{6,12}$/"
+                                        data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"
+                                        data-required="1" />
+                                    <p class="field__message field__message--register_repeat_password"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="register-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="register-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Crear cuenta" data-spinner-ratio="0.75">
+                        Crear cuenta
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="wholesaler-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="wholesaler-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Solicitar cuenta mayorista
+                    </p>
+                    <p class="modal__subtitle uk-text-justify">
+                        Usted solicitará una cuenta mayorista para poder acceder a nuestra
+                        lista de productos mayoristas. Esta solicitud será revisada a la
+                        brevedad y será notificado por email cuando la verificación haya
+                        concluído.
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body uk-overflow-auto" uk-overflow-auto=""
+                    style="min-height: 150px; max-height: 150px">
+                    <div id="wholesaler-alert"></div>
+                    <div id="wholesaler-modal-content">
+                        <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
+                            <div class="uk-width-1-2">
+                                <div class="field field--wholesaler_name">
+                                    <label class="field__label field__label--wholesaler_name"
+                                        for="wholesaler_name">Nombre</label>
+
+                                    <input type="text" name="wholesaler_name" id="wholesaler_name"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un nombre válido" data-required="1" />
+                                    <p class="field__message field__message--wholesaler_name"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--wholesaler_surname">
+                                    <label class="field__label field__label--wholesaler_surname"
+                                        for="wholesaler_surname">Apellido</label>
+
+                                    <input type="text" name="wholesaler_surname" id="wholesaler_surname"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un apellido válido" data-required="1" />
+                                    <p class="field__message field__message--wholesaler_surname"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--wholesaler_email">
+                                    <label class="field__label field__label--wholesaler_email"
+                                        for="wholesaler_email">Email</label>
+
+                                    <input type="email" name="wholesaler_email" id="wholesaler_email"
+                                        class="field__input border-radius"
+                                        data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                        data-message="Ingrese un email válido" data-required="1" />
+                                    <p class="field__message field__message--wholesaler_email"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--wholesaler_phone">
+                                    <label class="field__label field__label--wholesaler_phone"
+                                        for="wholesaler_phone">Teléfono</label>
+
+                                    <input type="tel" name="wholesaler_phone" id="wholesaler_phone"
+                                        class="field__input border-radius"
+                                        data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/"
+                                        data-message="Ingrese un número de teléfono válido con código de area"
+                                        data-required="1" />
+                                    <p class="field__message field__message--wholesaler_phone"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--wholesaler_password">
+                                    <label class="field__label field__label--wholesaler_password"
+                                        for="wholesaler_password">Contraseña</label>
+
+                                    <input type="password" name="wholesaler_password" id="wholesaler_password"
+                                        class="field__input border-radius" data-regex="/^.{6,12}$/"
+                                        data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"
+                                        data-required="1" />
+                                    <p class="field__message field__message--wholesaler_password"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--wholesaler_repeat_password">
+                                    <label class="field__label field__label--wholesaler_repeat_password"
+                                        for="wholesaler_repeat_password">Repetir contraseña</label>
+
+                                    <input type="password" name="wholesaler_repeat_password"
+                                        id="wholesaler_repeat_password" class="field__input border-radius"
+                                        data-regex="/^.{6,12}$/"
+                                        data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"
+                                        data-required="1" />
+                                    <p class="field__message field__message--wholesaler_repeat_password"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--wholesaler_message">
+                                    <label class="field__label field__label--wholesaler_message"
+                                        for="wholesaler_message">Mensaje (opcional)</label>
+                                    <textarea name="wholesaler_message" id="wholesaler_message"
+                                        class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/"
+                                        data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"
+                                        data-required="0"></textarea>
+                                    <p class="field__message field__message--wholesaler_message"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="wholesaler-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="wholesaler-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Enviar solicitud" data-spinner-ratio="0.75">
+                        Enviar solicitud
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="contact-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="contact-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">Contacto</p>
+                </div>
+                <div class="modal__body uk-modal-body uk-overflow-auto" uk-overflow-auto=""
+                    style="min-height: 150px; max-height: 150px">
+                    <div id="contact-alert"></div>
+                    <div id="contact-modal-content">
+                        <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
+                            <input type="hidden" id="contact_product_id" name="contact_product_id" value="0" />
+                            <input type="hidden" id="contact_stk_id" name="contact_stk_id" value="0" />
+                            <div class="uk-width-1-1" id="contact__show-product"></div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--contact_full_name">
+                                    <label class="field__label field__label--contact_full_name"
+                                        for="contact_full_name">Nombre completo</label>
+
+                                    <input type="text" name="contact_full_name" id="contact_full_name"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{5,90}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un nombre y apellido válidos" data-required="1" />
+                                    <p class="field__message field__message--contact_full_name"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--contact_email">
+                                    <label class="field__label field__label--contact_email"
+                                        for="contact_email">Email</label>
+
+                                    <input type="email" name="contact_email" id="contact_email"
+                                        class="field__input border-radius"
+                                        data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                        data-message="Ingrese un email válido" data-required="1" />
+                                    <p class="field__message field__message--contact_email"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-2">
+                                <div class="field field--contact_phone">
+                                    <label class="field__label field__label--contact_phone" for="contact_phone">Teléfono
+                                        (opcional)</label>
+
+                                    <input type="tel" name="contact_phone" id="contact_phone"
+                                        class="field__input border-radius"
+                                        data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/"
+                                        data-message="Ingrese un número de teléfono válido con código de area"
+                                        data-required="0" />
+                                    <p class="field__message field__message--contact_phone"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--contact_message">
+                                    <label class="field__label field__label--contact_message"
+                                        for="contact_message">Mensaje</label>
+                                    <textarea name="contact_message" id="contact_message"
+                                        class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/"
+                                        data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"
+                                        data-required="1"></textarea>
+                                    <p class="field__message field__message--contact_message"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="contact-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Enviar" data-spinner-ratio="0.75">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="regret-modal" class="modal uk-modal" uk-modal="">
+        <div class="modal__dialog uk-modal-dialog">
+            <form id="regret-form" action="#" method="POST">
+                <div class="modal__header uk-modal-header">
+                    <button
+                        class="modal__close text--primary text--primary-hover uk-modal-close-default uk-icon uk-close"
+                        type="button" uk-close="">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="close-icon">
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </button>
+                    <p class="modal__title uk-modal-title text--primary">
+                        Solicitud: cancelación de compra
+                    </p>
+                    <p class="modal__subtitle uk-text-justify">
+                        La solicitud tendrá validez si es realizada dentro de los plazos
+                        determinados en la
+                        <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/235729/20201005"
+                            style="text-decoration: underline; color: blue">Resolución 424/2020</a>
+                        de la Secretaría de Comercio Interior y no se traten de productos
+                        exceptuados como productos personalizados y todos los comprendidos
+                        en el art. 1116 del Código Civil y Comercial.
+                    </p>
+                </div>
+                <div class="modal__body uk-modal-body uk-overflow-auto" uk-overflow-auto=""
+                    style="min-height: 150px; max-height: 150px">
+                    <div id="regret-alert"></div>
+                    <div id="regret-modal-content">
+                        <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
+                            <div class="uk-width-1-1">
+                                <div class="field field--regret_full_name">
+                                    <label class="field__label field__label--regret_full_name"
+                                        for="regret_full_name">Nombre completo</label>
+
+                                    <input type="text" name="regret_full_name" id="regret_full_name"
+                                        class="field__input border-radius"
+                                        data-regex="/^(?=.{5,90}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/"
+                                        data-message="Ingrese un nombre y apellido válidos" data-required="1" />
+                                    <p class="field__message field__message--regret_full_name"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--regret_email">
+                                    <label class="field__label field__label--regret_email" for="regret_email">Email (con
+                                        el que se realizó la compra)</label>
+
+                                    <input type="email" name="regret_email" id="regret_email"
+                                        class="field__input border-radius"
+                                        data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                        data-message="Ingrese un email válido" data-required="1" />
+                                    <p class="field__message field__message--regret_email"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--regret_phone">
+                                    <label class="field__label field__label--regret_phone"
+                                        for="regret_phone">Teléfono</label>
+
+                                    <input type="tel" name="regret_phone" id="regret_phone"
+                                        class="field__input border-radius"
+                                        data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/"
+                                        data-message="Ingrese un número de teléfono válido con código de area"
+                                        data-required="1" />
+                                    <p class="field__message field__message--regret_phone"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--regret_order">
+                                    <label class="field__label field__label--regret_order" for="regret_order">Número de
+                                        orden sin # (te llegó por email al momento de
+                                        realizar la compra)</label>
+
+                                    <input type="number" name="regret_order" id="regret_order"
+                                        class="field__input border-radius" data-regex="/^[1-9]{1}([0-9]?)*$/"
+                                        data-message="Ingrese un número válido" data-required="1" />
+                                    <p class="field__message field__message--regret_order"></p>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-1">
+                                <div class="field field--regret_message">
+                                    <label class="field__label field__label--regret_message"
+                                        for="regret_message">Aclaraciones: información sobre el inconveniente,
+                                        productos que quieres devolver, dirección de retiro, otras
+                                        observaciones.</label>
+                                    <textarea name="regret_message" id="regret_message"
+                                        class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/"
+                                        data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"
+                                        data-required="1"></textarea>
+                                    <p class="field__message field__message--regret_message"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="regret-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="regret-btn"
+                        class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"
+                        data-label="Enviar" data-spinner-ratio="0.75">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__container uk-container">
+                <div class="footer__top__items uk-grid-small uk-flex-between uk-grid uk-grid-stack" uk-grid="">
+                    <div class="footer__top__left uk-width-1-2@m uk-width-1-1 uk-first-column">
+                        <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">Medios de pago</h5>
+                            <div class="footer__top__icons uk-flex uk-flex-row uk-flex-wrap">
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mercadopago.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mastercard.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/visa.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/american-express.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/naranja.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cabal.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/maestro.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/diners-club.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/nativa.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/argencard.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/pagofacil.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/rapipago.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/deposito.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/efectivo.png"
+                                    class="footer__top__icon" alt="Medio Pago" />
+                            </div>
+                        </div>
+                        <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">
+                                Medios de envío
+                            </h5>
+                            <div class="footer__top__icons uk-flex uk-flex-row uk-flex-wrap">
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/e-pick.png"
+                                    class="footer__top__icon" alt="Medio Envio" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/mercadoenvios.png"
+                                    class="footer__top__icon" alt="Medio Envio" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/correo-argentino.png"
+                                    class="footer__top__icon" alt="Medio Envio" />
+                                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/retiro-local.png"
+                                    class="footer__top__icon" alt="Medio Envio" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="footer__top__right uk-width-1-3@l uk-width-1-2@m uk-width-1-1 uk-grid-margin uk-first-column">
+                        <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">
+                                Nuestras redes sociales
+                            </h5>
+                            <ul class="footer__top__social-media-list uk-flex uk-flex-row uk-flex-wrap">
+                                <li class="footer__top__social-media-item text--primary">
+                                    <a href="https://facebook.com/florTorfe" class="footer__top__social-media-link"
+                                        target="_blank">
+                                        <i class="fab fa-facebook-f footer__top__social-media-icon"
+                                            aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__top__social-media-item text--primary">
+                                    <a href="https://instagram.com/flortorfe" class="footer__top__social-media-link"
+                                        target="_blank">
+                                        <i class="fab fa-instagram footer__top__social-media-icon"
+                                            aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">Contacto</h5>
+                            <div class="footer__top__icons uk-flex uk-flex-row uk-flex-wrap">
+                                <ul class="footer__top__info-list uk-flex uk-flex-column">
+                                    <li class="footer__top__info-item text--primary">
+                                        <a href="mailto:flortorfe@gmail.com" class="footer__top__info-link"
+                                            target="_blank">
+                                            <i class="fas fa-envelope footer__top__info-icon" aria-hidden="true"></i>
+                                            flortorfe@gmail.com
+                                        </a>
+                                    </li>
+                                    <li class="footer__top__info-item text--primary">
+                                        <a href="sms:+542614999999" class="footer__top__info-link" target="_blank">
+                                            <i class="fas fa-phone footer__top__info-icon" aria-hidden="true"></i>
+                                            +542614999999
+                                        </a>
+                                    </li>
+                                    <li class="footer__top__info-item text--primary">
+                                        <i class="fas fa-map-marker-alt footer__top__info-icon" aria-hidden="true"></i>
+                                        Galria Tonsa local 22
+                                    </li>
+                                    <li class="footer__top__info-item text--primary">
+                                        <a href="#regret-modal" uk-toggle="">
+                                            <i class="fas fa-chevron-right footer__top__info-icon"
+                                                aria-hidden="true"></i>
+                                            Botón de arrepentimiento
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">Newsletter</h5>
+                            <form id="newsletter-form" action="#" method="POST">
+                                <div class="uk-grid-collapse uk-grid" uk-grid="">
+                                    <div class="uk-width-auto@s uk-width-1-2 uk-first-column">
+                                        <div class="field field--newsletter_email">
+                                            <input type="email" name="newsletter_email" id="newsletter_email"
+                                                class="field__input border-radius field__input--right-button"
+                                                data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/"
+                                                data-message="Ingrese un email válido" placeholder="Email"
+                                                data-required="1" />
+                                            <p class="field__message field__message--newsletter_email"></p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-auto@s uk-width-1-2">
+                                        <button type="submit" id="newsletter-btn"
+                                            class="button uk-button-input--no-radius button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"
+                                            data-label="Suscribirme" data-spinner-ratio="0.75">
+                                            Suscribirme
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+    <div class="chat-bubbles">
+        <ul class="chat-bubbles__list">
+            <li class="chat-bubbles__list-item">
+                <a href=" " target="_blank">
+                    <div class="chat__bubble chat__bubble--facebook">
+                        <i class="chat__icon fab fa-facebook-messenger" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="chat-bubbles__list-item">
+                <a href="https://wa.me/5491157714599" target="_blank">
+                    <div class="chat__bubble chat__bubble--whatsapp">
+                        <i class="chat__icon fab fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="chat">
+        <div class="chat__bubble chat__bubble--dispatcher background--primary">
+            <i class="chat__icon fas fa-comment contrast_text--primary" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div id="cart-sidenav" class="cart-sidenav uk-offcanvas" uk-offcanvas="overlay: true; flip: true; mode: slide">
+        <div
+            class="cart-sidenav__offcanvas-bar uk-offcanvas-bar uk-offcanvas-bar--desktop-medium uk-offcanvas-bar--mobile-full text--primary">
+            <button class="cart-sidenav__offcanvas-close uk-offcanvas-close text--primary uk-icon uk-close"
+                type="button" uk-close="">
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
+                    data-svg="close-icon">
+                    <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                    <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                </svg>
+            </button>
+            <div class="cart-sidenav__container">
+                <div class="cart-sidenav__msg"></div>
+                <p class="cart-sidenav__title text--primary">Mi carrito</p>
+                <div class="cart-sidenav__loader" style="display: none">
+                    <div uk-spinner="" class="uk-icon uk-spinner">
+                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"
+                            data-svg="spinner">
+                            <circle fill="none" stroke="#000" cx="15" cy="15" r="14"></circle>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="cart-sidenav__content">
+                    <li class="cart-sidenav__item cart-sidenav__item--divider">
+                        <div class="cart-sidenav__divider"></div>
+                    </li>
+                    <li class="cart-sidenav__item cart-sidenav__item--centered">
+                        <p class="cart-sidenav__info-text uk-text-center">
+                            El carrito de compras está vacio
+                        </p>
+                        <a href="#" class="cart-sidenav__button-link" uk-toggle="target: #cart-sidenav">Volver a la
+                            tienda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit-icons.min.js"></script>
+
+    <script
+        src="https://d2op8dwcequzql.cloudfront.net/assets/1.20.0/templates/favourite/js/modules/product.js"></script>
+    <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js" async="" defer=""></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async="" defer=""></script>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVS7HDK" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+
+    <div class="autocomplete-suggestions" style="
+        position: absolute;
+        display: none;
+        max-height: 300px;
+        z-index: 9999;
+      "></div>
+    <div id="suspender_tab_manager"></div>
+    <loom-container id="lo-engage-ext-container"><loom-shadow
+            classname="resolved"></loom-shadow></loom-container><loom-container id="lo-companion-container"><loom-shadow
+            classname="resolved"></loom-shadow></loom-container><iframe
+        src="https://www.mercadolibre.com/jms/lgz/background?dps=armor.8b11e98e5a95bd43ce5a20a36b027b985c8eb56392bf2b3e8fb2ce298bb8bc34ee083ed1acc26128b6f7765b93a9bd088f6291d3e74c1a74c6611bb2247188c11c9620ba10f038604f7d4f275a22e87c5cfa940bcdcddbad0e111183296c3a92.dbde126ea361afa97512656985d2797c"
+        style="display: none; width: 0; height: 0; border: none; margin: 0"></iframe>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
